@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='https://kasenli.github.io/platzimusic/dist/logo.png')
     h1 PlatziMusic
     select(v-model="selectedLimit")
       option(v-for="limit in limits" :value="limit.value" ) {{ limit.name }}
